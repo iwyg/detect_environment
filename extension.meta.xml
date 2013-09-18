@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="detect_environment" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+  <name>Detect Environment</name>
+  <description>Page Environment</description>
+  <repo type="github">https://github.com/iwyg/detect_environment.git</repo>
+  <types>
+    <type>Workflow</type>
+  </types>
+  <authors>
+		<author>
+			<name github="iwyg">Thomas Appel</name>
+			<website>http://thomas-appel.com</website>
+			<email>mail@thomas-appel.com</email>
+		</author>
+  </authors>
+  <releases>
+		<release version="0.0.1" date="2013-09-18" min="2.3.3" max="2.3.x">
+			- first release
+		</release>
+  </releases>
+</extension>
