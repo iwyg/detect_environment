@@ -117,7 +117,7 @@ class Extension_Detect_Environment extends Extension
      */
     public function addConfigView($context)
     {
-        extract ($context);
+        extract($context);
 
         $env = $this->getConfig();
 
@@ -128,6 +128,7 @@ class Extension_Detect_Environment extends Extension
         $fieldset = new XmlElement('fieldset', null, array('class' => 'settings'));
         $legend   = new XmlElement('legend', __('Environment'), array('class' => 'settings'));
         $fieldset->appendChild($legend);
+
 
         $content  = new XmlElement('div', null, array('class' => 'frame'));
         $ol       = new XmlElement('ol', null, array('class' => 'env-duplicator'));
